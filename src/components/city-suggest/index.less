@@ -1,0 +1,137 @@
+.city-suggest {
+    position: relative;
+    float:left;
+    .icon1{
+        position:absolute;
+        top:0;
+        left:0;
+        display:block;
+        width:34px;
+        height:30px;
+        background:url(../../static/img/ICON.svg) no-repeat -10px -19px;
+    }
+    .address{
+        position:absolute;
+        top:0;
+        right:0;
+        display:block;
+        width:47px;
+        height:30px;
+        color:#cbcbcb;
+        line-height: 30px;
+    }
+    .poi_suggest {
+        font-family: Tahoma, Arial, sans-serif;
+        width: auto;
+        position: absolute;
+        left: 0;
+        top: 30px;
+        *top: 30px;
+        zoom: 1;
+        font-size: 12px;
+        border: 1px solid #999;
+        background-color: #fff;
+        z-index: 10;
+    }
+
+    .poi_suggest tbody,
+    .poi_suggest tr,
+    .poi_suggest td {
+        display: block
+    }
+
+    .poi_suggest table {
+        width: 300px
+    }
+
+    .poi_suggest td {
+        padding: 6px 30px 6px 10px;
+        text-align: left;
+        white-space: nowrap;
+        cursor: pointer;
+        background-color: #fff;
+        color: #545454
+    }
+
+    .poi_suggest th {
+        padding: 6px 30px 6px 10px;
+        font-weight: normal;
+        background-color: #fff;
+        color: #545454;
+        text-align: left
+    }
+
+    .poi_suggest th b {
+        color: #2577e3
+    }
+
+    .poi_suggest th.error {
+        color: #c01111
+    }
+
+    .poi_suggest td b {
+        color: #06c
+    }
+
+    .poi_suggest .active td {
+        background-color: #2577e3;
+        color: #fff
+    }
+
+    .poi_suggest .active td b {
+        color: #fff
+    }
+
+    .poi_suggest .item_first {
+        border-top: 0
+    }
+
+    .poi_suggest .icon_city {
+        background-position: 98% 5px
+    }
+
+    .poi_suggest .active .icon_city {
+        background-position: 98% -30px
+    }
+
+    .poi_suggest .icon_airport {
+        background-position: 98% -65px
+    }
+
+    .poi_suggest .active .icon_airport {
+        background-position: 98% -100px
+    }
+
+    .poi_suggest .icon_scenic {
+        background-position: 98% -135px
+    }
+
+    .poi_suggest .active .item_scenic,
+    .poi_suggest .active .no_airport {
+        background-color: #fff;
+        cursor: default;
+        color: #545454
+    }
+
+    .poi_suggest .active .item_scenic b,
+    .poi_suggest .active .no_airport b {
+        color: #06c
+    }
+
+    .poi_suggest .icon_country {
+        background-position: 98% -205px
+    }
+
+    .item_city .active .icon_country {
+        background-position: 98% -240px
+    }
+
+    .poi_suggest .icon_province {
+        background-position: 98% -275px
+    }
+
+    .item_city .active .icon_province {
+        background-position: 98% -310px
+    }
+
+}

@@ -1,0 +1,42 @@
+.inlineblock(){
+    display: inline-block;
+    *display:inline;
+    zoom:1;
+}
+.home-date{
+    position:relative;
+    height:50px;
+    width:100%;
+    margin-bottom:20px;
+    .home-date-left{
+        .inlineblock();
+        width:240px;
+        height:50px;
+        box-sizing: border-box;
+        border:1px solid #4096ee;
+        border-left-width:3px; 
+    }
+    .home-date-right{
+        position:absolute;
+        top:0;
+        right:0;
+        width:940px;
+        height:50px;
+        box-sizing: border-box;
+        border:1px solid #4096ee;
+        li{
+            .inlineblock();
+            height:48px;
+            width:98px;
+            border-right:1px solid #4096ee;
+        }
+        .left,.right{
+            width:38px;
+            background:#f0f8ff;
+        }
+        .bottom-price{
+            width:167px;
+            border-right:none;
+        }
+    }
+}
